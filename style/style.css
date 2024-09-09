@@ -102,7 +102,9 @@ nav {
 .nav-list {
   display: none;
 }
-
+.nav-list a {
+  color: black;
+}
 @media (min-width: 480px) {
   .nav-list {
     display: flex;
@@ -447,5 +449,3 @@ a {
 }
 
 /*! Style to the aboutUs.html */
-
-
