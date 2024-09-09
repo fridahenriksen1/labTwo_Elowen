@@ -449,3 +449,9 @@ a {
 }
 
 /*! Style to the aboutUs.html */
+.main-about {
+  margin: auto;
+}
+.about-mb {
+  margin-bottom: 1rem;
+}
