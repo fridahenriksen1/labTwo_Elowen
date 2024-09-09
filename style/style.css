@@ -149,6 +149,11 @@ nav {
     margin-left: 5.5rem;
   }
 }
+@media (min-width: 1520px) {
+  .section-text {
+    margin-left: 9.5rem;
+  }
+}
 
 .heading-box {
   max-width: 258px;
@@ -307,6 +312,11 @@ a {
     transform: translate(175%, 185%);
   }
 }
+@media (min-width: 1520px) {
+  .ul-footer {
+    transform: translate(345%, 185%);
+  }
+}
 .white {
   color: #faf9f6;
   margin-bottom: 1rem;
@@ -376,6 +386,11 @@ a {
 @media (min-width: 960px) {
   .socialMedia-box {
     width: 750px;
+  }
+}
+@media (min-width: 1520px) {
+  .socialMedia-box {
+    width: 1350px;
   }
 }
 
