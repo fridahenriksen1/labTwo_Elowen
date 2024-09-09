@@ -171,10 +171,7 @@ nav {
   gap: 1rem;
   margin-top: 1rem;
 }
-@media (min-width: 480px) {
-  .section-flower-pic {
-  }
-}
+
 .card {
   position: relative;
   display: flex;
@@ -185,6 +182,11 @@ nav {
 @media (min-width: 480px) {
   .card {
     flex: 0 1 40%;
+  }
+}
+@media (min-width: 960px) {
+  .card {
+    flex: 0 1 30%;
   }
 }
 
@@ -217,6 +219,17 @@ nav {
     border-radius: 0px 100px 0px 0px;
   }
 }
+@media (min-width: 960px) {
+  .border-radius-topTwo {
+    border-radius: 0px 0px 0px 0px;
+  }
+}
+@media (min-width: 960px) {
+  .border-radius-topThree {
+    border-radius: 0px 100px 0px 0px;
+  }
+}
+
 .border-radius-btm {
   border-radius: 0px 0px 150px 150px;
 }
@@ -227,6 +240,16 @@ nav {
 }
 @media (min-width: 480px) {
   .border-radius-btmTwo {
+    border-radius: 0px 0px 0px 100px;
+  }
+}
+@media (min-width: 960px) {
+  .border-radius-btmTwo {
+    border-radius: 0px 0px 0px 0px;
+  }
+}
+@media (min-width: 960px) {
+  .border-radius-btmFour {
     border-radius: 0px 0px 0px 100px;
   }
 }
