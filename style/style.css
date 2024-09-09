@@ -170,7 +170,7 @@ nav {
     margin-left: 4.5rem;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 980px) {
   .section-text {
     margin-left: 5.5rem;
   }
@@ -210,7 +210,7 @@ nav {
     flex: 0 1 40%;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 980px) {
   .card {
     flex: 0 1 30%;
   }
@@ -245,12 +245,12 @@ nav {
     border-radius: 0px 100px 0px 0px;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 980px) {
   .border-radius-topTwo {
     border-radius: 0px 0px 0px 0px;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 980px) {
   .border-radius-topThree {
     border-radius: 0px 100px 0px 0px;
   }
@@ -269,12 +269,12 @@ nav {
     border-radius: 0px 0px 0px 100px;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 980px) {
   .border-radius-btmTwo {
     border-radius: 0px 0px 0px 0px;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 980px) {
   .border-radius-btmFour {
     border-radius: 0px 0px 0px 100px;
   }
@@ -356,7 +356,7 @@ a {
     transform: translate(160%, 185%);
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 980px) {
   .ul-footer {
     transform: translate(175%, 185%);
   }
@@ -431,7 +431,7 @@ a {
     width: 690px;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 980px) {
   .socialMedia-box {
     width: 750px;
   }
