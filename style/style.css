@@ -122,17 +122,43 @@ footer {
   min-height: 238px;
   background-color: #697a60;
   color: #faf9f6;
+  display: flex;
 }
+.logo-list-box {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0rem 2rem 3rem;
+}
+
 footer,
 a {
   color: #faf9f6;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.ul-footer li {
+  padding-bottom: 0.6rem;
 }
 .white {
   color: #faf9f6;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.socialMedia-box {
+  display: flex;
+  justify-content: right;
+  align-self: flex-end;
+  flex: 0 0 50%;
+  margin-bottom: 2rem;
 }
 
 .socialMedia-icon {
-  width: 48px;
-  height: 48px;
+  width: 24px;
+  height: 24px;
   color: #faf9f6;
+  margin-left: 0.5rem;
+}
+.facebook-icon {
+  color: black;
 }
