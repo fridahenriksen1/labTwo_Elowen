@@ -29,8 +29,14 @@ a {
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
 }
+/*! margin and font-size under the first heading */
 .mt {
   margin-top: 0.8rem;
+}
+@media (min-width: 700px) {
+  .mt {
+    font-size: 18px;
+  }
 }
 
 nav {
@@ -101,8 +107,8 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* width: 100%; */
     flex: 0 0 40%;
+    font-family: "open sans", sans-serif;
   }
   .nav-list li {
     flex: 1 auto;
@@ -129,6 +135,9 @@ nav {
 .heading-box {
   max-width: 258px;
   margin-top: 2.188rem;
+}
+.p-box {
+  max-width: 450px;
 }
 
 .section-flower-pic {
@@ -163,9 +172,13 @@ nav {
   background-color: white;
   transform: translate(-50%, -50%);
   padding: 0.4rem;
-  font-size: 20px;
   font-family: "Open Sans", sans-serif;
   border-radius: 10px;
+}
+@media (min-width: 700px) {
+  .center {
+    font-size: 20px;
+  }
 }
 .border-radius-top {
   border-radius: 150px 150px 0px 0px;
