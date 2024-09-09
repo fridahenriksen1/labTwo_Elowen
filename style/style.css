@@ -130,3 +130,9 @@ a {
 .white {
   color: #faf9f6;
 }
+
+.socialMedia-icon {
+  width: 48px;
+  height: 48px;
+  color: #faf9f6;
+}
