@@ -28,6 +28,7 @@ p {
 a {
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
+  cursor: pointer;
 }
 /*! margin and font-size under the first heading */
 .mt {
@@ -172,6 +173,7 @@ nav {
 .card {
   position: relative;
   display: flex;
+  cursor: pointer;
 }
 
 /*! The cards get two sections instead of one */
