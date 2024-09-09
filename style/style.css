@@ -123,6 +123,7 @@ footer {
   background-color: #697a60;
   color: #faf9f6;
   display: flex;
+  margin-top: 1rem;
 }
 .logo-list-box {
   display: flex;
