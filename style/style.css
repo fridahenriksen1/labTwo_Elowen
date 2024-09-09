@@ -130,6 +130,32 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (min-width: 400px) {
+  .hero-image {
+    background-image: url("/img/heroBig.jpg");
+    height: 300px;
+  }
+}
+@media (min-width: 500px) {
+  .hero-image {
+    height: 400px;
+  }
+}
+@media (min-width: 800px) {
+  .hero-image {
+    height: 500px;
+  }
+}
+@media (min-width: 1000px) {
+  .hero-image {
+    height: 600px;
+  }
+}
+@media (min-width: 1500px) {
+  .hero-image {
+    height: 750px;
+  }
+}
 .index-main {
   padding: 1rem;
 }
@@ -345,7 +371,6 @@ a {
   margin-bottom: 1rem;
   font-size: 2rem;
 }
-
 .socialMedia-box {
   display: flex;
   justify-content: right;
@@ -416,7 +441,6 @@ a {
     width: 1350px;
   }
 }
-
 .socialMedia-icon {
   width: 24px;
   height: 24px;
