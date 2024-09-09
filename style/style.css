@@ -295,8 +295,6 @@ footer {
 }
 @media (min-width: 480px) {
   .logo-list-box {
-    /* flex-grow: 1;
-    flex: 0 0 70%; */
     position: relative;
   }
 }
@@ -447,3 +445,7 @@ a {
   color: #faf9f6;
   margin-left: 0.5rem;
 }
+
+/*! Style to the aboutUs.html */
+
+
