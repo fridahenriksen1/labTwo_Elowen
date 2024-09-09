@@ -139,9 +139,22 @@ nav {
   gap: 1rem;
   margin-top: 1rem;
 }
+@media (min-width: 480px) {
+  .section-flower-pic {
+  }
+}
 .card {
   position: relative;
+  display: flex;
 }
+
+/*! The cards get two sections instead of one */
+@media (min-width: 480px) {
+  .card {
+    flex: 0 1 40%;
+  }
+}
+
 .center {
   position: absolute;
   top: 50%;
