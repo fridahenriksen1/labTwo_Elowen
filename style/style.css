@@ -478,3 +478,15 @@ a {
 .section-cards {
   margin: 1rem 1rem 1rem 1rem;
 }
+.card-about {
+  margin-bottom: 2rem;
+}
+.borderRadius-about {
+  border-radius: 100px 0px 0px 0px;
+}
+.borderRadius-aboutTwo {
+  border-radius: 0px 100px 0px 0px;
+}
+.h2-mt {
+  margin-top: 1rem;
+}
