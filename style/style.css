@@ -16,9 +16,12 @@ img {
   width: 100%;
 }
 h1 {
-  /* font-family: "Raleway", sans-serif; */
   font-family: "Libre Franklin", sans-serif;
-  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  font-family: "Libre Franklin", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -380,7 +383,7 @@ a {
   width: 160px;
   margin-bottom: 2rem;
 }
-/* !Media for social media icons */
+/* !Media for social media icons in footer */
 @media (min-width: 400px) {
   .socialMedia-box {
     width: 200px;
@@ -466,8 +469,12 @@ a {
   margin: 0rem 0rem 1rem 0rem;
   padding-top: 1.2rem;
 }
-/*! The p text inside section */
+/*! The p text inside section-txtAbout */
 .about-mb {
   margin-bottom: 1rem;
   max-width: 318px;
+}
+
+.section-cards {
+  margin: 1rem 1rem 1rem 1rem;
 }
