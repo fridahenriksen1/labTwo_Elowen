@@ -477,9 +477,16 @@ a {
 
 .section-cards {
   margin: 1rem 1rem 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 .card-about {
   margin-bottom: 2rem;
+}
+@media (min-width: 480px) {
+  .card-about {
+    flex: 0 0 calc(100% / 2);
+  }
 }
 .borderRadius-about {
   border-radius: 100px 0px 0px 0px;
