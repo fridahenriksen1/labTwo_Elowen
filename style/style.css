@@ -116,6 +116,7 @@ nav {
     align-items: center;
     flex: 0 0 40%;
     font-family: "open sans", sans-serif;
+    margin-right: 2rem;
   }
   .nav-list li {
     flex: 1 auto;
@@ -459,6 +460,9 @@ a {
   flex-wrap: wrap;
   justify-content: center;
 }
+.imgHero-about {
+  padding: 0rem 2rem;
+}
 .section-txtAbout {
   max-width: 328px;
   background-color: #faf9f6;
@@ -468,6 +472,11 @@ a {
 @media (min-width: 600px) {
   .section-txtAbout {
     max-width: 520px;
+  }
+}
+@media (min-width: 900px) {
+  .section-txtAbout {
+    max-width: 720px;
   }
 }
 .heading-about {
@@ -485,6 +494,11 @@ a {
     max-width: 500px;
   }
 }
+@media (min-width: 900px) {
+  .about-mb {
+    max-width: 700px;
+  }
+}
 .section-cards {
   margin: 1rem 1rem 1rem 1rem;
   display: flex;
@@ -495,6 +509,7 @@ a {
 .card-about {
   margin-bottom: 1rem;
 }
+/* the cards displays beside eachother at the breakpoint */
 @media (min-width: 480px) {
   .card-about {
     flex: 0 0 48%;
