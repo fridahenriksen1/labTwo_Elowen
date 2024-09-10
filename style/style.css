@@ -490,6 +490,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  justify-content: center;
 }
 .card-about {
   margin-bottom: 2rem;
