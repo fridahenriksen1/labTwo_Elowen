@@ -85,10 +85,6 @@ nav {
   font-size: 2rem;
 }
 
-.material-symbols-outlined.shopping-icon {
-  color: black;
-}
-
 /* !Hiding the icon menu with visually hidden */
 @media (min-width: 480px) {
   .visually-hidden {
@@ -576,4 +572,15 @@ a {
 }
 .sidebar li a {
   color: #faf9f6;
+}
+.material-symbols-outlined.shopping-icon {
+  color: black;
+}
+.logoWhite {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #faf9f6;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
