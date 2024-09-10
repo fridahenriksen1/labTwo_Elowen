@@ -16,7 +16,8 @@ img {
   width: 100%;
 }
 h1 {
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: "Libre Franklin", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -457,11 +458,16 @@ a {
 }
 .section-txtAbout {
   max-width: 328px;
+  background-color: #faf9f6;
+  margin: -3rem 0rem 1.2rem 0rem;
 }
 .heading-about {
   text-align: center;
-  margin: 1.2rem 0rem;
+  margin: 0rem 0rem 1rem 0rem;
+  padding-top: 1.2rem;
 }
+/*! The p text inside section */
 .about-mb {
   margin-bottom: 1rem;
+  max-width: 318px;
 }
