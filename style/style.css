@@ -460,8 +460,35 @@ a {
   flex-wrap: wrap;
   justify-content: center;
 }
+@media (min-width: 1732px) {
+  .main-about {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* hero picture at the aboutUs.html */
 .imgHero-about {
-  padding: 0rem 2rem;
+  background-image: url("/img/aboutPicS.jpg");
+  min-height: 360px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 680px) {
+  .imgHero-about {
+    height: 500px;
+  }
+}
+@media (min-width: 680px) {
+  .imgHero-about {
+    height: 600px;
+  }
+}
+@media (min-width: 1200px) {
+  .imgHero-about {
+    height: 800px;
+  }
 }
 .section-txtAbout {
   max-width: 328px;
@@ -505,6 +532,7 @@ a {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+  max-width: 980px;
 }
 .card-about {
   margin-bottom: 1rem;
