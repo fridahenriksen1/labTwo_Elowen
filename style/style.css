@@ -463,6 +463,12 @@ a {
   max-width: 328px;
   background-color: #faf9f6;
   margin: -3rem 0rem 1.2rem 0rem;
+  padding: 0 1rem;
+}
+@media (min-width: 600px) {
+  .section-txtAbout {
+    max-width: 520px;
+  }
 }
 .heading-about {
   text-align: center;
@@ -474,7 +480,11 @@ a {
   margin-bottom: 1rem;
   max-width: 318px;
 }
-
+@media (min-width: 600px) {
+  .about-mb {
+    max-width: 500px;
+  }
+}
 .section-cards {
   margin: 1rem 1rem 1rem 1rem;
   display: flex;
