@@ -569,13 +569,14 @@ a {
   list-style: none;
   display: none;
   flex-direction: column;
+  z-index: 1;
   /* transition: all 2s ease-in-out; */
 }
 .sidebar li a {
   color: #faf9f6;
 }
-.sidebar li{
-  padding: 1rem
+.sidebar li {
+  padding: 1rem;
 }
 .close-icon {
   text-align: right;

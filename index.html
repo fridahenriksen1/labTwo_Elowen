@@ -23,12 +23,18 @@
   <body>
     <header>
       <nav>
-        <div class="logo-icon-box">
-          <a class="logo" href="index.html">Elowen</a>
-          <span class="material-symbols-outlined icon-menu visually-hidden">
-            menu
-          </span>
-        </div>
+        <ul class="logo-icon-box">
+          <li>
+            <a class="logo" href="index.html">Elowen</a>
+          </li>
+          <li onclick="showSidebar()">
+            <a href="#">
+              <span class="material-symbols-outlined icon-menu visually-hidden">
+                menu
+              </span></a
+            >
+          </li>
+        </ul>
 
         <ul class="nav-list">
           <li><a href="aboutUs.html">Om oss</a></li>
@@ -38,6 +44,24 @@
               <span class="material-symbols-outlined shopping-icon">
                 shopping_bag
               </span>
+            </a>
+          </li>
+        </ul>
+        <!-- !Sidebar in mobile -->
+        <ul class="sidebar">
+          <li class="close-icon" onclick="hideSidebar()">
+            <a href="#"
+              ><span class="material-symbols-outlined"> close </span></a
+            >
+          </li>
+          <li>
+            <a class="logoWhite" href="index.html">Elowen</a>
+          </li>
+          <li><a href="aboutUs.html">Om oss</a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li>
+            <a href="#">
+              <span class="material-symbols-outlined"> shopping_bag </span>
             </a>
           </li>
         </ul>
@@ -141,5 +165,6 @@
         /></a>
       </div>
     </footer>
+    <script src="/js/script.js"></script>
   </body>
 </html>
