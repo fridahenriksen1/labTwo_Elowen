@@ -575,7 +575,7 @@ a {
   color: #faf9f6;
 }
 .sidebar li{
-  padding-left: 1rem;
+  padding: 1rem
 }
 .close-icon {
   text-align: right;
