@@ -569,9 +569,14 @@ a {
   list-style: none;
   display: none;
   flex-direction: column;
+  /* transition: all 2s ease-in-out; */
 }
 .sidebar li a {
   color: #faf9f6;
+}
+.close-icon {
+  text-align: right;
+  padding: 1rem;
 }
 .material-symbols-outlined.shopping-icon {
   color: black;
