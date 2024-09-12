@@ -51,6 +51,13 @@ nav {
   position: relative;
 }
 
+nav li a:hover {
+  text-decoration: 2px underline;
+}
+nav li a:focus {
+  text-decoration: 2px underline;
+}
+
 @media (min-width: 480px) {
   nav {
     justify-content: space-between;
