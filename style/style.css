@@ -169,7 +169,7 @@ nav li a:focus {
 .index-main {
   padding: 1rem;
 }
-/* More spacing to the left for the section-text */
+/*! More spacing to the left for the section-text */
 @media (min-width: 480px) {
   .section-text {
     margin-left: 2rem;
