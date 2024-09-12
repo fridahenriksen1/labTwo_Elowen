@@ -52,10 +52,10 @@ nav {
 }
 
 nav li a:hover {
-  text-decoration: 2px underline;
+  text-decoration: 2px #3c3c3b underline;
 }
 nav li a:focus {
-  text-decoration: 2px underline;
+  text-decoration: 2px #3c3c3b underline;
 }
 
 @media (min-width: 480px) {
@@ -293,7 +293,7 @@ nav li a:focus {
 /* !style for footer */
 footer {
   min-height: 238px;
-  background-color: #697a60;
+  background-color: #505d49;
   color: #faf9f6;
   display: flex;
   margin-top: 1rem;
