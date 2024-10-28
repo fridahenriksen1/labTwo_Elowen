@@ -14,9 +14,35 @@ let getProducts = function () {
   buildProductArchive += '<section class="section-flower-pic">';
 
   for (let i = 0; i < defineProductCards.length; i++) {
-    buildProductArchive += `<article class="card"><imgclass="border-radius-top"src=${defineProductCards[i].imageUrl1}alt="An picture of cut flowers"/><div class="center">${defineProductCards[i].description}</div></article>`;
+    let imageClass = "";
+
+    switch (i) {
+      case 0:
+        imageClass = "border-radius-top";
+        break;
+      case 1:
+        imageClass = "border-radius-topTwo";
+        break;
+      case 2:
+        imageClass = "border-radius-topThree";
+        break;
+      case 3:
+        imageClass = "border-radius-btmFour";
+        break;
+      case 4:
+        imageClass = "border-radius-btmTwo";
+        break;
+      case 5:
+        imageClass = "border-radius-btm";
+        break;
+      default:
+    }
+    buildProductArchive += `<article class="card">
+    <img class= "${imageClass}" src=${defineProductCards[i].imageUrl1} alt="An picture of cut flowers"/><div class="center">${defineProductCards[i].description}</div></article>`;
   }
   buildProductArchive += "</section>";
+  let containerCards = document.querySelector(".section-text");
+  containerCards.insertAdjacentHTML("afterend", buildProductArchive);
 };
 
 // '<article class="card"><imgclass="border-radius-top"src="img/cutFlowers.jpg"alt="An picture of cut flowers"/><div class="center">Snittblommor</div></article>';
