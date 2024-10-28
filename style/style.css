@@ -227,6 +227,7 @@ nav li a:focus {
 }
 
 .center {
+  opacity: 0.9;
   position: absolute;
   top: 50%;
   left: 50%;
