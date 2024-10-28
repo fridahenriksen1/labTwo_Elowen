@@ -7,8 +7,9 @@ let defineProductCards = [
   { imageUrl1: "img/coffinDecoration.jpg" },
   { imageUrl1: "img/mourningDecoration.jpg", description: "Sorgdekorationer" },
 ];
-
 console.log(defineProductCards);
+
+//! Function to build the section for the cards and the flower cards in it, and a switch to set the right class to the img to get the right border radius
 let getProducts = function () {
   let buildProductArchive = "";
   buildProductArchive += '<section class="section-flower-pic">';
@@ -44,5 +45,3 @@ let getProducts = function () {
   let containerCards = document.querySelector(".section-text");
   containerCards.insertAdjacentHTML("afterend", buildProductArchive);
 };
-
-// '<article class="card"><imgclass="border-radius-top"src="img/cutFlowers.jpg"alt="An picture of cut flowers"/><div class="center">Snittblommor</div></article>';
