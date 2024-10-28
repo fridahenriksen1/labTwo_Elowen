@@ -10,3 +10,9 @@ function hideSidebar() {
 }
 
 
+// let defineProductCards = [
+
+//   {imageUrl1: "/"}
+
+
+// ]
