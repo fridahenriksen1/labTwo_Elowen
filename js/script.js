@@ -9,3 +9,14 @@ let defineProductCards = [
 ];
 
 console.log(defineProductCards);
+let getProducts = function () {
+  let buildProductArchive = "";
+  buildProductArchive += '<section class="section-flower-pic">';
+
+  for (let i = 0; i < defineProductCards.length; i++) {
+    buildProductArchive += `<article class="card"><imgclass="border-radius-top"src=${defineProductCards[i].imageUrl1}alt="An picture of cut flowers"/><div class="center">${defineProductCards[i].description}</div></article>`;
+  }
+  buildProductArchive += "</section>";
+};
+
+// '<article class="card"><imgclass="border-radius-top"src="img/cutFlowers.jpg"alt="An picture of cut flowers"/><div class="center">Snittblommor</div></article>';
