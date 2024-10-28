@@ -134,7 +134,7 @@ nav li a:focus {
   }
 }
 .hero-image {
-  background-image: url("/img/heroPicMobile.jpg");
+  background-image: url("../img/heroPicMobile.jpg");
   min-height: 260px;
   background-position: center;
   background-repeat: no-repeat;
@@ -142,7 +142,7 @@ nav li a:focus {
 }
 @media (min-width: 400px) {
   .hero-image {
-    background-image: url("/img/heroBig.jpg");
+    background-image: url("../img/heroBig.jpg");
     height: 300px;
   }
 }
@@ -475,7 +475,7 @@ a {
 }
 /* hero picture at the aboutUs.html */
 .imgHero-about {
-  background-image: url("/img/aboutPicS.jpg");
+  background-image: url("../img/aboutPicS.jpg");
   min-height: 360px;
   width: 100%;
   background-position: center;
