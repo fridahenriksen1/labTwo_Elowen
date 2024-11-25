@@ -2,7 +2,7 @@
 @import "base/typography";
 @import "layout/nav";
 @import "layout/_footer";
-
+@import "aboutpage";
 body {
   background-color: #faf9f6;
 }
@@ -183,109 +183,5 @@ img {
   .border-radius-btmFour {
     border-radius: 0px 0px 0px 100px;
   }
-}
-
-/*! Style to the aboutUs.html */
-.main-about {
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-@media (min-width: 1732px) {
-  .main-about {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-/* hero picture at the aboutUs.html */
-.imgHero-about {
-  background-image: url("../img/aboutPicS.jpg");
-  min-height: 360px;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-@media (min-width: 480px) {
-  .imgHero-about {
-    margin: 0rem 2rem;
-  }
-}
-
-@media (min-width: 680px) {
-  .imgHero-about {
-    height: 600px;
-  }
-}
-@media (min-width: 1200px) {
-  .imgHero-about {
-    height: 800px;
-  }
-}
-.section-txtAbout {
-  max-width: 328px;
-  background-color: #faf9f6;
-  margin: -3rem 0rem 1.2rem 0rem;
-  padding: 0 1rem;
-}
-@media (min-width: 600px) {
-  .section-txtAbout {
-    max-width: 520px;
-  }
-}
-@media (min-width: 900px) {
-  .section-txtAbout {
-    max-width: 720px;
-  }
-}
-.heading-about {
-  text-align: center;
-  margin: 0rem 0rem 1rem 0rem;
-  padding-top: 1.2rem;
-}
-/*! The p text inside section-txtAbout */
-.about-mb {
-  margin-bottom: 1rem;
-  max-width: 318px;
-}
-@media (min-width: 600px) {
-  .about-mb {
-    max-width: 500px;
-  }
-}
-@media (min-width: 900px) {
-  .about-mb {
-    max-width: 700px;
-  }
-}
-.section-cards {
-  margin: 1rem 1rem 1rem 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  max-width: 980px;
-}
-.card-about {
-  margin-bottom: 1rem;
-}
-/*! the cards displays beside eachother at the breakpoint */
-@media (min-width: 480px) {
-  .card-about {
-    flex: 0 0 48%;
-  }
-}
-.borderRadius-about {
-  border-radius: 100px 0px 0px 0px;
-}
-.borderRadius-aboutTwo {
-  border-radius: 0px 100px 0px 0px;
-}
-.h2-mt {
-  margin-top: 1rem;
-}
-.p-mt {
-  margin-top: 0.5rem;
 }
 
