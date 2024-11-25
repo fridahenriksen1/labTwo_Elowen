@@ -28,6 +28,10 @@ a {
   cursor: pointer;
 }
 
+ul {
+  list-style: none;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -449,10 +453,6 @@ a {
 
 body {
   background-color: #faf9f6;
-}
-
-ul {
-  list-style: none;
 }
 
 img {
