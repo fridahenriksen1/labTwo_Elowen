@@ -87,3 +87,40 @@ nav li a:focus {
     justify-content: right;
   }
 }
+
+/*!Sidebar to the mobile menu*/
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #3c3c3b;
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+    /* transition: all 2s ease-in-out; */
+  }
+  .sidebar li a {
+    color: #faf9f6;
+  }
+  .sidebar li {
+    padding: 1rem;
+  }
+  .close-icon {
+    text-align: right;
+    padding: 1rem;
+  }
+  .material-symbols-outlined.shopping-icon {
+    color: black;
+  }
+  .logoWhite {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #faf9f6;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
