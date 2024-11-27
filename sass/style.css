@@ -492,6 +492,33 @@ a {
   margin-top: 0.5rem;
 }
 
+.heading-products {
+  max-width: 300px;
+}
+
+.search-box {
+  display: flex;
+}
+.search-box #search-bar {
+  flex: 0 0 100%;
+}
+.search-box #search-bar #product-search {
+  padding: 1rem 5rem 1rem 3rem;
+  position: relative;
+  border-radius: 100px;
+  border: 1px solid #9e9e9e;
+}
+.search-box #search-bar #product-search.focus-border {
+  border: 1px solid #141414;
+  outline: none;
+}
+.search-box #search-bar #btn-search {
+  position: absolute;
+  left: 1rem;
+  border: none;
+  background-color: transparent;
+}
+
 body {
   background-color: #3c3c3b;
   color: #faf9f6;
