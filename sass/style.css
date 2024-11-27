@@ -552,7 +552,7 @@ a {
   text-decoration: none;
   display: block;
 }
-.main-products .heading-searchBox .search-box .dropdown .dropdown-content:hover {
+.main-products .heading-searchBox .search-box .dropdown .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
 .main-products .heading-searchBox .search-box .dropdown:hover .dropdown-content {
