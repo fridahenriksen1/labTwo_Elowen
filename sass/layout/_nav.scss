@@ -6,10 +6,10 @@ nav {
 }
 
 nav li a:hover {
-  text-decoration: 2px #3c3c3b underline;
+  text-decoration: 2px $white underline;
 }
 nav li a:focus {
-  text-decoration: 2px #3c3c3b underline;
+  text-decoration: 2px $white underline;
 }
 
 @media (min-width: 480px) {
@@ -41,7 +41,7 @@ nav li a:focus {
 /*!Hamburger icon*/
 .material-symbols-outlined.icon-menu {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-  color: #1a1a1a;
+  color: $white;
   position: absolute;
   right: 0rem;
   font-size: 2rem;
@@ -65,7 +65,7 @@ nav li a:focus {
   display: none;
 }
 .nav-list a {
-  color: black;
+  color: $white;
 }
 @media (min-width: 480px) {
   .nav-list {
@@ -86,6 +86,7 @@ nav li a:focus {
     display: flex;
     align-items: center;
     justify-content: right;
+    color: $white;
   }
 }
 
