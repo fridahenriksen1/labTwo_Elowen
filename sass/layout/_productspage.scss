@@ -42,6 +42,8 @@
       .dropdown {
         position: relative;
         display: inline-block;
+        margin-top: 1rem;
+
         .dropbtn {
           background-color: transparent;
           color: white;
@@ -50,6 +52,13 @@
           border: 1px solid $white;
           cursor: pointer;
           border-radius: 4px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .arrow-icon {
+            margin-left: 8px;
+          }
         }
         .dropdown-content {
           display: none;

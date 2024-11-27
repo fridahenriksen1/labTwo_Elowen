@@ -528,6 +528,7 @@ a {
 .main-products .heading-searchBox .search-box .dropdown {
   position: relative;
   display: inline-block;
+  margin-top: 1rem;
 }
 .main-products .heading-searchBox .search-box .dropdown .dropbtn {
   background-color: transparent;
@@ -537,6 +538,12 @@ a {
   border: 1px solid #faf9f6;
   cursor: pointer;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-products .heading-searchBox .search-box .dropdown .dropbtn .arrow-icon {
+  margin-left: 8px;
 }
 .main-products .heading-searchBox .search-box .dropdown .dropdown-content {
   display: none;
