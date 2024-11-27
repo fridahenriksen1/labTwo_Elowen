@@ -500,23 +500,27 @@ a {
   display: flex;
 }
 .search-box #search-bar {
+  position: relative;
   flex: 0 0 100%;
 }
 .search-box #search-bar #product-search {
-  padding: 1rem 5rem 1rem 3rem;
+  padding: 0.8rem 5rem 0.8rem 3rem;
   position: relative;
   border-radius: 100px;
   border: 1px solid #9e9e9e;
+  width: 125%;
 }
 .search-box #search-bar #product-search.focus-border {
-  border: 1px solid #141414;
+  border: 1px solid #3c3c3b;
   outline: none;
 }
 .search-box #search-bar #btn-search {
   position: absolute;
   left: 1rem;
+  top: 0.6rem;
   border: none;
   background-color: transparent;
+  color: #9e9e9e;
 }
 
 body {
