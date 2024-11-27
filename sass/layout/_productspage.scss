@@ -81,6 +81,9 @@
         &:hover .dropdown-content {
           display: block;
         }
+        &:active .dropdown-content {
+          display: block;
+        }
       }
     }
   }

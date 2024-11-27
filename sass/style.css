@@ -565,6 +565,9 @@ a {
 .main-products .heading-searchBox .search-box .dropdown:hover .dropdown-content {
   display: block;
 }
+.main-products .heading-searchBox .search-box .dropdown:active .dropdown-content {
+  display: block;
+}
 
 .ml1 {
   margin-left: 1rem;
