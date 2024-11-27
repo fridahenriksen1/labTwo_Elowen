@@ -572,6 +572,26 @@ a {
     display: block;
   }
 }
+.main-products .chip + label {
+  display: inline-block;
+  background-color: #faf9f6;
+  border-radius: 5rem;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 0.4rem;
+  color: #3c3c3b;
+  font-size: 1rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+.main-products .chip[type=checkbox] {
+  display: none;
+}
+.main-products .chip[type=checkbox]:checked + label {
+  background-color: #ff952b;
+}
+
 .ml1 {
   margin-left: 1rem;
 }
