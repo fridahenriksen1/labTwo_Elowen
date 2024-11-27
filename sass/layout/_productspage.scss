@@ -5,6 +5,7 @@
     // flex-wrap: wrap;
     // max-width: 500px;
     // justify-content: left;
+   
     .heading-products {
       max-width: 300px;
     }
@@ -78,11 +79,16 @@
             }
           }
         }
-        &:hover .dropdown-content {
-          display: block;
+        @media (max-width: 479px) {
+          &:active .dropdown-content {
+            display: block;
+          }
         }
-        &:active .dropdown-content {
-          display: block;
+
+        @media (min-width: 480px) {
+          &:hover .dropdown-content {
+            display: block;
+          }
         }
       }
     }
