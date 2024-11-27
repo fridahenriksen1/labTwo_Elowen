@@ -214,6 +214,7 @@ footer {
   color: #faf9f6;
   display: flex;
   margin-top: 1rem;
+  border-top: solid 1px #faf9f6;
 }
 
 .logo-list-box {
