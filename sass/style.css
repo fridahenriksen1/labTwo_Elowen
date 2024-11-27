@@ -533,7 +533,7 @@ a {
 .main-products .heading-searchBox .search-box .dropdown .dropbtn {
   background-color: transparent;
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 1rem;
   font-size: 16px;
   border: 1px solid #faf9f6;
   cursor: pointer;
@@ -564,6 +564,10 @@ a {
 }
 .main-products .heading-searchBox .search-box .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.ml1 {
+  margin-left: 1rem;
 }
 
 body {
