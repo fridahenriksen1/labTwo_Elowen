@@ -500,10 +500,11 @@ a {
 }
 .main-products .heading-searchBox .search-box {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
 }
 .main-products .heading-searchBox .search-box #search-bar {
   position: relative;
-  flex: 0 0 39%;
 }
 .main-products .heading-searchBox .search-box #search-bar #product-search {
   padding: 0.8rem 2rem 0.8rem 3rem;
@@ -523,6 +524,39 @@ a {
   border: none;
   background-color: transparent;
   color: #9e9e9e;
+}
+.main-products .heading-searchBox .search-box .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.main-products .heading-searchBox .search-box .dropdown .dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  border: 1px solid #faf9f6;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.main-products .heading-searchBox .search-box .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.main-products .heading-searchBox .search-box .dropdown .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.main-products .heading-searchBox .search-box .dropdown .dropdown-content:hover {
+  background-color: #f1f1f1;
+}
+.main-products .heading-searchBox .search-box .dropdown:hover .dropdown-content {
+  display: block;
 }
 
 body {
