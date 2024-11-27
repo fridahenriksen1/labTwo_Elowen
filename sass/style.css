@@ -417,7 +417,7 @@ a {
 }
 .section-txtAbout {
   max-width: 328px;
-  background-color: #faf9f6;
+  background-color: #3c3c3b;
   margin: -3rem 0rem 1.2rem 0rem;
   padding: 0 1rem;
 }
@@ -490,7 +490,8 @@ a {
 }
 
 body {
-  background-color: #faf9f6;
+  background-color: #3c3c3b;
+  color: #faf9f6;
 }
 
 img {
@@ -579,6 +580,7 @@ img {
   left: 50%;
   text-align: center;
   background-color: white;
+  color: #3c3c3b;
   /* background-color: #1a1a1a; */
   /* color: white; */
   transform: translate(-50%, -50%);

@@ -6,7 +6,8 @@
 @import "aboutpage";
 
 body {
-  background-color: #faf9f6;
+  background-color: $primary-bg;
+  color: $white;
 }
 
 img {
@@ -94,6 +95,7 @@ img {
   left: 50%;
   text-align: center;
   background-color: white;
+  color: $primary-bg;
   /* background-color: #1a1a1a; */
   /* color: white; */
   transform: translate(-50%, -50%);
