@@ -572,7 +572,7 @@ a {
     display: block;
   }
 }
-.main-products .chip + label {
+.main-products #categorys .chip + label {
   display: inline-block;
   background-color: #faf9f6;
   border-radius: 5rem;
@@ -584,11 +584,13 @@ a {
      -moz-user-select: none;
           user-select: none;
   cursor: pointer;
+  margin-right: 0.6rem;
+  margin-bottom: 0.6rem;
 }
-.main-products .chip[type=checkbox] {
+.main-products #categorys .chip[type=checkbox] {
   display: none;
 }
-.main-products .chip[type=checkbox]:checked + label {
+.main-products #categorys .chip[type=checkbox]:checked + label {
   background-color: #ff952b;
 }
 
