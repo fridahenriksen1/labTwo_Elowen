@@ -68,13 +68,14 @@ function getCard() {
   });
 }
 
-fetch("/json/flowers.json.")
+fetch("/json/flowers.json")
   .then((response) => response.json())
   .then((data) => {
-    data.forEach((d) => {
-      fetchData.push(d);
-    });
-    if (dataUserCards) {
-      getCard();
-    }
+    console.log(data);
+    // data.forEach((d) => {
+    //   fetchData.push(d);
+    // });
+    // if (dataUserCards) {
+    //   getCard();
+    // }
   });

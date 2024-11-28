@@ -1,4 +1,5 @@
 #categorys {
+  font-family: $font-family-body;
   .chip {
     + label {
       display: inline-block;
@@ -10,7 +11,7 @@
       font-size: 1rem;
       user-select: none;
       cursor: pointer;
-      margin-right: 0.6rem;
+      margin-right: 0.4rem;
       margin-bottom: 0.6rem;
     }
 
