@@ -1,0 +1,27 @@
+#categorys {
+  .chip {
+    + label {
+      display: inline-block;
+      background-color: $white;
+      border-radius: 5rem;
+      padding: 0.5rem 1.5rem;
+      margin-bottom: 0.4rem;
+      color: $primary-bg;
+      font-size: 1rem;
+      user-select: none;
+      cursor: pointer;
+      margin-right: 0.6rem;
+      margin-bottom: 0.6rem;
+    }
+
+    &[type="checkbox"] {
+      display: none;
+
+      &:checked {
+        + label {
+          background-color: $cta;
+        }
+      }
+    }
+  }
+}

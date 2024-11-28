@@ -572,7 +572,16 @@ a {
     display: block;
   }
 }
-.main-products #categorys .chip + label {
+
+.ml1 {
+  margin-left: 1rem;
+}
+
+.mt1 {
+  margin-top: 1rem;
+}
+
+#categorys .chip + label {
   display: inline-block;
   background-color: #faf9f6;
   border-radius: 5rem;
@@ -587,19 +596,11 @@ a {
   margin-right: 0.6rem;
   margin-bottom: 0.6rem;
 }
-.main-products #categorys .chip[type=checkbox] {
+#categorys .chip[type=checkbox] {
   display: none;
 }
-.main-products #categorys .chip[type=checkbox]:checked + label {
+#categorys .chip[type=checkbox]:checked + label {
   background-color: #ff952b;
-}
-
-.ml1 {
-  margin-left: 1rem;
-}
-
-.mt1 {
-  margin-top: 1rem;
 }
 
 body {
