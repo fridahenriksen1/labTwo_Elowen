@@ -45,3 +45,36 @@ let getProducts = function () {
   let containerCards = document.querySelector(".section-text");
   containerCards.insertAdjacentHTML("afterend", buildProductArchive);
 };
+
+//!fetch to get flowers.json
+
+const dataTemplate = document.querySelector("[data-template]");
+const dataUserCards = document.querySelector("[data-user-cards]");
+
+let products = [];
+
+let fetchData = [];
+console.log(fetchData);
+function getCard() {
+  products = fetchData.map((product) => {
+    const card = dataTemplate.textContent.cloneNode(true).children[0];
+    const header = card.querySelector("[data-header]");
+    const img = card.querySelector("[data-image]");
+
+    header.textContent = product.name;
+    img.setAttribute("src", `json/${product.image}`);
+    dataUserCards.append(card);
+    return { name: product.name };
+  });
+}
+
+fetch("/json/flowers.json.")
+  .then((response) => response.json())
+  .then((data) => {
+    data.forEach((d) => {
+      fetchData.push(d);
+    });
+    if (dataUserCards) {
+      getCard();
+    }
+  });
