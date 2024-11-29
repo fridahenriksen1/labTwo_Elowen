@@ -47,9 +47,8 @@ let getProducts = function () {
 };
 
 //!fetch to get flowers.json
-
-const dataTemplate = document.querySelector("[data-template]");
 const dataUserCards = document.querySelector("[data-user-cards]");
+const dataTemplate = document.querySelector("[data-template]");
 
 let products = [];
 
@@ -58,24 +57,31 @@ console.log(fetchData);
 function getCard() {
   products = fetchData.map((product) => {
     const card = dataTemplate.textContent.cloneNode(true).children[0];
-    const header = card.querySelector("[data-header]");
     const img = card.querySelector("[data-image]");
+    const header = card.querySelector("[data-header]");
+    const price = card.querySelector("[data-price]");
 
+    img.setAttribute("src", `/json/${product.image}`);
     header.textContent = product.name;
-    img.setAttribute("src", `json/${product.image}`);
+    price.textContent = product.price;
+    console.log(product.price);
     dataUserCards.append(card);
-    return { name: product.name };
+    console.log(card);
+    return { image: product.image, name: product.name, price: product.price };
   });
 }
+
+console.log("products []", products);
+console.log(getCard);
 
 fetch("/json/flowers.json")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
-    // data.forEach((d) => {
-    //   fetchData.push(d);
-    // });
-    // if (dataUserCards) {
-    //   getCard();
-    // }
+    data.forEach((d) => {
+      fetchData.push(d);
+    });
+    if (dataUserCards) {
+      getCard();
+    }
   });
