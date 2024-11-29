@@ -47,32 +47,40 @@ let getProducts = function () {
 };
 
 //!fetch to get flowers.json
+
 const dataUserCards = document.querySelector("[data-user-cards]");
 const dataTemplate = document.querySelector("[data-template]");
 
-let products = [];
+//let products = [];
 
 let fetchData = [];
-console.log(fetchData);
+
 function getCard() {
+  console.log("getCard körs med fetchData:", fetchData); // Kontrollera om getCard körs
+  if (!fetchData.length) {
+    console.warn("No data in fetchData array.");
+    return;
+  }
   products = fetchData.map((product) => {
-    const card = dataTemplate.textContent.cloneNode(true).children[0];
+    const card = dataTemplate.content.cloneNode(true).children[0];
+
     const img = card.querySelector("[data-image]");
     const header = card.querySelector("[data-header]");
     const price = card.querySelector("[data-price]");
 
-    img.setAttribute("src", `/json/${product.image}`);
+    img.setAttribute("src", `${product.image}`);
     header.textContent = product.name;
     price.textContent = product.price;
     console.log(product.price);
     dataUserCards.append(card);
     console.log(card);
-    return { image: product.image, name: product.name, price: product.price };
+    return {
+      image: product.image,
+      name: product.name,
+      price: product.price,
+    };
   });
 }
-
-console.log("products []", products);
-console.log(getCard);
 
 fetch("/json/flowers.json")
   .then((response) => response.json())
@@ -82,6 +90,7 @@ fetch("/json/flowers.json")
       fetchData.push(d);
     });
     if (dataUserCards) {
+      console.log("fetchData:", fetchData); // Kontrollera innehållet i fetchData
       getCard();
     }
   });

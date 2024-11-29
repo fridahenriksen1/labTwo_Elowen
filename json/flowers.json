@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
+    "image": "../img/bridal_bouquet_roses.jpg",
     "name": "Rose & Lace",
-    "price": 1200,
-    "image": "img/bridal_bouquet_roses.jpg"
+    "price": 1200
   },
   {
     "id": 2,
+    "image": "../img/bridal_bouquet_roses.jpg",
     "name": "Enchanted Blooms",
-    "price": 1200,
-    "image": "img/bridal_bouquet_roses.jpg"
+    "price": 1200
   },
   {
     "id": 3,
+    "image": "img/bridal_bouquet_roses.jpg",
     "name": "Eternal Romance",
-    "price": 1200,
-    "image": "img/bridal_bouquet_roses.jpg"
+    "price": 1200
   },
   {
     "id": 4,
+    "image": "img/bridal_bouquet_roses.jpg",
     "name": "Whispering Petals",
-    "price": 1200,
-    "image": "img/bridal_bouquet_roses.jpg"
+    "price": 1200
   },
   {
     "id": 5,
+    "image": "img/bridal_bouquet_roses.jpg",
     "name": "Ivory Grace",
-    "price": 1200,
-    "image": "img/bridal_bouquet_roses.jpg"
+    "price": 1200
   },
   {
     "id": 6,
+    "image": "img/bridal_bouquet_roses.jpg",
     "name": "Luminous Love",
-    "price": 1200,
-    "image": "img/bridal_bouquet_roses.jpg"
+    "price": 1200
   },
   {
     "id": 7,
+    "image": "img/bridal_bouquet_roses.jpg",
     "name": "Blossoms of Bliss",
-    "price": 1200,
-    "image": "img/bridal_bouquet_roses.jpg"
+    "price": 1200
   },
   {
     "id": 8,
+    "image": "img/bridal_bouquet_roses.jpg",
     "name": "Sweet Serenade",
-    "price": 1200,
-    "image": "img/bridal_bouquet_roses.jpg"
+    "price": 1200
   }
 ]

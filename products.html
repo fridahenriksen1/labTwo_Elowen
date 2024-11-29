@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="sass/style.css" />
-    <script src="js/script.js"></script>
+
 
     <!-- shoppingbag icon from google icons -->
     <link
@@ -138,16 +138,18 @@
   <label for="categorySix">Sorgdekorationer</label>
 </form>
 <section class="section-products" data-user-cards>
-  <article class="cards-products" data-template>
-    <figure>
-      <div class="img-box-products">
-        <img data-image/>
-      </div>
-      <p data-header></p>
-      <p data-price></p>
-    </figure>
+  <template data-template>
+    <article class="cards-products">
+      <figure>
+        <div class="img-box-products">
+          <img data-image />
+        </div>
+        <p data-header></p>
+        <p data-price></p>
+      </figure>
+    </article>
+  </template>
 
-  </article>
 
 </section>
     </main>
@@ -175,5 +177,6 @@
     </footer>
 
     <script src="js/sidebar.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
