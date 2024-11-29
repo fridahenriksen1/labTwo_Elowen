@@ -652,6 +652,10 @@ a {
   padding-right: 1rem;
 }
 
+.hide {
+  display: none;
+}
+
 body {
   background-color: #3c3c3b;
   color: #faf9f6;

@@ -46,3 +46,64 @@ let getProducts = function () {
   containerCards.insertAdjacentHTML("afterend", buildProductArchive);
 };
 
+//!fetch to get flowers.json
+
+const dataUserCards = document.querySelector("[data-user-cards]");
+const dataTemplate = document.querySelector("[data-template]");
+
+let fetchData = [];
+let products = [];
+
+function getCard() {
+  if (!fetchData.length) {
+    console.warn("No data in fetchData array.");
+    return;
+  }
+  products = fetchData.map((product) => {
+    const card = dataTemplate.content.cloneNode(true).children[0];
+
+    const img = card.querySelector("[data-image]");
+    const header = card.querySelector("[data-header]");
+    const price = card.querySelector("[data-price]");
+
+    img.setAttribute("src", `${product.image}`);
+    header.textContent = product.name;
+    price.textContent = product.price;
+    console.log(product.price);
+    dataUserCards.append(card);
+    console.log(card);
+    return {
+      element: card,
+      image: product.image,
+      name: product.name,
+      price: product.price,
+    };
+  });
+}
+
+fetch("/json/flowers.json")
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data);
+    data.forEach((d) => {
+      fetchData.push(d);
+    });
+    if (dataUserCards) {
+      getCard();
+    }
+  });
+
+//! search in the searchbar
+
+const searchInput = document.querySelector("#product-search");
+// const searchInput = document.querySelector("[data-search]");
+
+searchInput.addEventListener("input", (e) => {
+  const valuInput = e.target.value.toLowerCase();
+
+  products.forEach((flower) => {
+    const isVisible = flower.name.toLowerCase().includes(valuInput);
+    flower.element.classList.toggle("hide", !isVisible);
+    console.log("här är flowers", products);
+  });
+});
