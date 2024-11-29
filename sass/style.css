@@ -624,13 +624,12 @@ a {
   position: relative;
 }
 .section-products .cards-products .img-box-products {
-  width: 328px;
   height: 346px;
 }
 .section-products .cards-products .img-box-products .heart-icon {
   position: absolute;
-  right: 1.9rem;
-  top: 1.5rem;
+  right: 1rem;
+  top: 1.4rem;
   background-color: rgba(80, 93, 73, 0.7);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
@@ -642,6 +641,15 @@ a {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.section-products .cards-products .text-icon-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  align-items: center;
+}
+.section-products .cards-products .text-icon-box .shoppingIcon {
+  padding-right: 1rem;
 }
 
 body {
