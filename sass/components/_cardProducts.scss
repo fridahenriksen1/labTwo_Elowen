@@ -1,0 +1,15 @@
+.section-products {
+  .cards-products {
+    .img-box-products {
+      width: 328px;
+      height: 346px;
+
+
+      img {
+        border-radius: 1.875rem 1.875rem 0rem 0rem;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
