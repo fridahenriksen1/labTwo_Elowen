@@ -46,8 +46,7 @@ let getProducts = function () {
   containerCards.insertAdjacentHTML("afterend", buildProductArchive);
 };
 
-//!fetch to get flowers.json
-
+//! function and template to get the cards
 const dataUserCards = document.querySelector("[data-user-cards]");
 const dataTemplate = document.querySelector("[data-template]");
 
@@ -55,11 +54,12 @@ let fetchData = [];
 let products = [];
 
 function getCard() {
+  const maxCardsToShow = 9; // Antal kort att visa
   if (!fetchData.length) {
     console.warn("No data in fetchData array.");
     return;
   }
-  products = fetchData.map((product) => {
+  products = fetchData.slice(0, maxCardsToShow).map((product) => {
     const card = dataTemplate.content.cloneNode(true).children[0];
 
     const img = card.querySelector("[data-image]");
@@ -80,7 +80,7 @@ function getCard() {
     };
   });
 }
-
+//!fetch to get flowers.json
 fetch("/json/flowers.json")
   .then((response) => response.json())
   .then((data) => {
