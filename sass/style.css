@@ -620,9 +620,22 @@ a {
   }
 }
 
+.section-products .cards-products {
+  position: relative;
+}
 .section-products .cards-products .img-box-products {
   width: 328px;
   height: 346px;
+}
+.section-products .cards-products .img-box-products .heart-icon {
+  position: absolute;
+  right: 1.9rem;
+  top: 1.5rem;
+  background-color: rgba(80, 93, 73, 0.7);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  padding: 0.2rem;
+  border-radius: 4px;
 }
 .section-products .cards-products .img-box-products img {
   border-radius: 1.875rem 1.875rem 0rem 0rem;

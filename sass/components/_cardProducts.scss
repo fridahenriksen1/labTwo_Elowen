@@ -1,9 +1,19 @@
 .section-products {
   .cards-products {
+    position: relative;
+
     .img-box-products {
       width: 328px;
       height: 346px;
-
+      .heart-icon {
+        position: absolute;
+        right: 1.9rem;
+        top: 1.5rem;
+        background-color: rgba(80, 93, 73, 0.7);
+        backdrop-filter: blur(2px);
+        padding: 0.2rem;
+        border-radius: 4px;
+      }
 
       img {
         border-radius: 1.875rem 1.875rem 0rem 0rem;
