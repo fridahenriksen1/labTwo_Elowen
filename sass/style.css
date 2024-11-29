@@ -625,13 +625,19 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  max-width: 1045px;
 }
 .section-products .cards-products {
-  position: relative;
   flex: 1 0 auto;
+}
+@media (min-width: 431px) {
+  .section-products .cards-products {
+    max-width: 300px;
+  }
 }
 .section-products .cards-products .img-box-products {
   height: 346px;
+  position: relative;
 }
 .section-products .cards-products .img-box-products .heart-icon {
   position: absolute;

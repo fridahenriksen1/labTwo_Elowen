@@ -3,13 +3,17 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  max-width: 1045px;
   .cards-products {
-    position: relative;
+    // position: relative;
     flex: 1 0 auto;
-
+    @media (min-width: 431px) {
+      max-width: 300px;
+    }
     .img-box-products {
       //width: 328px;
       height: 346px;
+      position: relative;
 
       .heart-icon {
         position: absolute;
