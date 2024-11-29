@@ -1,6 +1,11 @@
 .section-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
   .cards-products {
     position: relative;
+    flex: 1 0 auto;
 
     .img-box-products {
       //width: 328px;

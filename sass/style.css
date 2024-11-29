@@ -620,8 +620,15 @@ a {
   }
 }
 
+.section-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
 .section-products .cards-products {
   position: relative;
+  flex: 1 0 auto;
 }
 .section-products .cards-products .img-box-products {
   height: 346px;
