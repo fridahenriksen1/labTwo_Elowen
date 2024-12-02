@@ -65,10 +65,12 @@ function getCard() {
     const img = card.querySelector("[data-image]");
     const header = card.querySelector("[data-header]");
     const price = card.querySelector("[data-price]");
+    const link = card.querySelector("[data-link]");
 
     img.setAttribute("src", `${product.image}`);
     header.textContent = product.name;
     price.textContent = product.price;
+    link.setAttribute("href", product.htmlUrl);
     console.log(product.price);
     dataUserCards.append(card);
     console.log(card);

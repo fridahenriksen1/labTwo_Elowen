@@ -1,3 +1,4 @@
+//! Script to get a specific product
 const container = document.querySelector(".product");
 const productTemplate = document.querySelector("[data-product]");
 

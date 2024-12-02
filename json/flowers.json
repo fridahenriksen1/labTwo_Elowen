@@ -3,7 +3,8 @@
     "id": 1,
     "image": "img/bridal_bouquet_roses.jpg",
     "name": "Rose & Lace",
-    "price": 1600
+    "price": 1600,
+    "htmlUrl": "product/rose.html"
   },
   {
     "id": 2,
