@@ -670,6 +670,10 @@ a {
   display: none;
 }
 
+.product-main .product .card-specific-product .card-pic-box img {
+  border-radius: 2rem 2rem 0rem 0rem;
+}
+
 body {
   background-color: #3c3c3b;
   color: #faf9f6;
