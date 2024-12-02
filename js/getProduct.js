@@ -1,4 +1,4 @@
-//! Script to get a specific product
+//! //! fetch for the flowers.json
 const container = document.querySelector(".product");
 const productTemplate = document.querySelector("[data-product]");
 
@@ -17,4 +17,24 @@ fetch("../json/flowers.json")
         container.append(product);
       }
     });
+  });
+//! fetch for the fake store api
+fetch("https://fakestoreapi.com/products")
+  .then((response) => response.json())
+  .then((data) => {
+    data.forEach((item) => {
+      if (item.id == container.id) {
+        const price = document.querySelector("[data-price]");
+        const rating = document.querySelector("[data-rating]");
+
+        const count = document.querySelector("[data-count]");
+
+        price.textContent = item.price;
+        rating.textContent = item.rating.rate;
+        count.textContent = item.rating.count;
+      }
+    });
+    console.log(data);
+    //! Hämtar priset i första id:t
+    // document.querySelector(".price-card").textContent = data[0].price;
   });
