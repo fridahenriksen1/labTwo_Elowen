@@ -26,12 +26,11 @@ fetch("https://fakestoreapi.com/products")
       if (item.id == container.id) {
         const price = document.querySelector("[data-price]");
         const rating = document.querySelector("[data-rating]");
-
         const count = document.querySelector("[data-count]");
 
-        price.textContent = item.price;
+        price.textContent = `${item.price} SEK`;
         rating.textContent = item.rating.rate;
-        count.textContent = item.rating.count;
+        count.textContent = `${item.rating.count} i lager`;
       }
     });
     console.log(data);
