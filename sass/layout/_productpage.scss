@@ -1,9 +1,18 @@
 .product-main {
+  display: flex;
+  justify-content: center;
   .product {
     .card-specific-product {
       .card-pic-box {
+        min-width: 23.5rem;
+        height: 23.6rem;
+
         img {
           border-radius: 2rem 2rem 0rem 0rem;
+          object-fit: cover;
+          background-repeat: no-repeat;
+          height: 100%;
+          width: 100%;
         }
       }
     }
