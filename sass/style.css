@@ -629,6 +629,7 @@ a {
 }
 .section-products .cards-products {
   flex: 1 0 auto;
+  cursor: pointer;
 }
 @media (min-width: 431px) {
   .section-products .cards-products {

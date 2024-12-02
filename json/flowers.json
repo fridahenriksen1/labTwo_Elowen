@@ -3,8 +3,7 @@
     "id": 1,
     "image": "img/bridal_bouquet_roses.jpg",
     "name": "Rose & Lace",
-    "price": 1200,
-    "apiUrl": "https://fakestoreapi.com/products"
+    "price": 1600
   },
   {
     "id": 2,

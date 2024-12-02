@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="sass/style.css" />
+
+    <link rel="stylesheet" href="../sass/style.css" />
+
+
 
 
     <!-- shoppingbag icon from google icons -->
@@ -85,7 +88,12 @@
       </nav>
     </header>
     <main>
-      <div class="product" id="1"></div>
+      <div class="product" id="1">
+        <template data-product>
+          <img data-image/>
+          <p data-header></p>
+        </template>
+      </div>
 
 
     </main>
@@ -102,20 +110,23 @@
         <a href="#">
           <img
             class="socialMedia-icon"
-            src="icons/facebook.png"
+            src="/icons/facebook.png"
             alt="It's a facebook icon"
         /></a>
         <a href="#">
           <img
             class="socialMedia-icon"
-            src="icons/instagram.png"
+            src="/icons/instagram.png"
             alt="An instagram icon"
         /></a>
     </footer>
 
-    <script src="js/script.js"></script>
-    <script src="js/sidebar.js"></script>
-    <script src="js/api.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/sidebar.js"></script>
+    <!-- <script src="../js/api.js"></script> -->
+    <!-- <script src="js/getProduct.js"></script>
+    <script src="/js/getProduct.js"></script> -->
+    <script src="../js/getProduct.js"></script>
 
   </body>
 </html>
