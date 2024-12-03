@@ -1,0 +1,18 @@
+.rating-box {
+  display: flex;
+  align-items: center;
+  margin-right: 0.3rem;
+
+  .eclipse-box {
+    display: flex;
+    //justify-content: space-between;
+    margin-right: 0.3rem;
+    .eclipse {
+      height: 15px;
+      width: 15px;
+      background-color: $rating-color;
+      border-radius: 100%;
+      margin: 0.1rem;
+    }
+  }
+}

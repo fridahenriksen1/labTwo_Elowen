@@ -686,6 +686,27 @@ a {
   height: 100%;
   width: 100%;
 }
+.product-main .product .card-specific-product .card-content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating-box {
+  display: flex;
+  align-items: center;
+  margin-right: 0.3rem;
+}
+.rating-box .eclipse-box {
+  display: flex;
+  margin-right: 0.3rem;
+}
+.rating-box .eclipse-box .eclipse {
+  height: 15px;
+  width: 15px;
+  background-color: #E7AE4D;
+  border-radius: 100%;
+  margin: 0.1rem;
+}
 
 body {
   background-color: #3c3c3b;

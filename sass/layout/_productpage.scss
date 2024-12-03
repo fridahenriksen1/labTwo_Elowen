@@ -15,6 +15,14 @@
           width: 100%;
         }
       }
+      .card-content-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .card-text-box {
+        }
+      }
     }
   }
 }
