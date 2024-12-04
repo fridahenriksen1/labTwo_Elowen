@@ -1,6 +1,7 @@
 .product-main {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   .product {
     .card-specific-product {
       .card-pic-box {

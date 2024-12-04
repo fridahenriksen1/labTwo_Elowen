@@ -673,6 +673,7 @@ a {
 .product-main {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .product-main .product .card-specific-product .card-pic-box {
   min-width: 23.5rem;
@@ -710,6 +711,15 @@ a {
   background-color: #E7AE4D;
   border-radius: 100%;
   margin: 0.1rem;
+}
+
+.btn-cart {
+  padding: 1rem;
+  background-color: orange;
+  width: 100%;
+  text-align: center;
+  margin: 2rem 1rem;
+  color: #3c3c3b;
 }
 
 body {
