@@ -723,12 +723,17 @@ a {
   margin: 0.1rem;
 }
 
-.btn-cart {
+.btn-collapsible-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 1rem;
+}
+.btn-collapsible-box .btn-cart {
   padding: 1rem;
   background-color: orange;
   width: 100%;
   text-align: center;
-  margin: 2rem 1rem;
+  margin: 1rem 0rem 2rem 0rem;
   color: #3c3c3b;
 }
 
