@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 html {
   margin: 0;
@@ -495,6 +496,13 @@ a {
 .main-products {
   padding: 1rem;
 }
+@media (min-width: 1000px) {
+  .main-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 
 .ml1 {
   margin-left: 1rem;
@@ -625,7 +633,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  max-width: 1045px;
+  max-width: 1000px;
 }
 .section-products .cards-products {
   flex: 1 0 auto;
@@ -691,9 +699,11 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 0.5rem;
 }
 .product-main .product .product-count {
   text-align: right;
+  padding: 0 0.5rem;
 }
 
 .rating-box {
@@ -720,6 +730,47 @@ a {
   text-align: center;
   margin: 2rem 1rem;
   color: #3c3c3b;
+}
+
+.collapsible {
+  background-color: #3c3c3b;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-top: 1px solid #faf9f6;
+  border-bottom: 1px solid #faf9f6;
+  color: #faf9f6;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #3c3c3b;
+}
+
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: #3c3c3b;
+}
+
+.collapsible:after {
+  content: "➕"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "➖"; /* Unicode character for "minus" sign (-) */
 }
 
 body {
