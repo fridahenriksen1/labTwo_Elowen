@@ -1,5 +1,4 @@
 .section-collapsible {
-    
   .collapsible {
     background-color: $primary-bg;
     color: #444;
@@ -13,9 +12,22 @@
     border-top: 1px solid $white;
     border-bottom: 1px solid $white;
     color: $white;
+    position: relative;
 
     &.no-border-top {
       border-top: none;
+    }
+    .remove-icon {
+      position: absolute;
+      right: 0rem;
+      top: 0.8rem;
+      display: none;
+    }
+    .add-icon {
+      position: absolute;
+      right: 0rem;
+      display: block;
+      top: 0.9rem;
     }
   }
   .active,
@@ -30,15 +42,18 @@
     transition: max-height 0.2s ease-out;
     color: $primary-bg;
   }
-  .collapsible:after {
-    content: "\02795"; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: white;
-    float: right;
-    margin-left: 5px;
-  }
+  //   .collapsible:after {
+  //     content: "\02795"; /* Unicode character for "plus" sign (+) */
+  //     font-size: 13px;
+  //     color: white;
+  //     float: right;
+  //     margin-left: 5px;
+  //     display: block;
+  //   }
 
-  .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+  //   .add-icon,
+  //   active:after {
+  //     content: "\2796"; /* Unicode character for "minus" sign (-) */
+  //     display: block;
+  //   }
 }

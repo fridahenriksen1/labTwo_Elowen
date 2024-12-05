@@ -1,4 +1,3 @@
-@charset "UTF-8";
 *,
 html {
   margin: 0;
@@ -750,9 +749,22 @@ a {
   border-top: 1px solid #faf9f6;
   border-bottom: 1px solid #faf9f6;
   color: #faf9f6;
+  position: relative;
 }
 .section-collapsible .collapsible.no-border-top {
   border-top: none;
+}
+.section-collapsible .collapsible .remove-icon {
+  position: absolute;
+  right: 0rem;
+  top: 0.8rem;
+  display: none;
+}
+.section-collapsible .collapsible .add-icon {
+  position: absolute;
+  right: 0rem;
+  display: block;
+  top: 0.9rem;
 }
 .section-collapsible .active,
 .section-collapsible .collapsible:hover {
@@ -765,16 +777,6 @@ a {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   color: #3c3c3b;
-}
-.section-collapsible .collapsible:after {
-  content: "➕"; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: white;
-  float: right;
-  margin-left: 5px;
-}
-.section-collapsible .active:after {
-  content: "➖"; /* Unicode character for "minus" sign (-) */
 }
 
 body {
