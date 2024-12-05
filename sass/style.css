@@ -681,6 +681,7 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 4rem;
 }
 .product-main .product .card-specific-product .card-pic-box {
   min-width: 23.5rem;
@@ -736,6 +737,9 @@ a {
   color: #3c3c3b;
 }
 
+.section-collapsible {
+  margin-top: 2rem;
+}
 .section-collapsible .collapsible {
   background-color: #3c3c3b;
   color: #444;
@@ -765,10 +769,6 @@ a {
   right: 0rem;
   display: block;
   top: 0.9rem;
-}
-.section-collapsible .active,
-.section-collapsible .collapsible:hover {
-  background-color: #3c3c3b;
 }
 .section-collapsible .content {
   padding: 0 18px;
