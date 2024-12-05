@@ -732,7 +732,7 @@ a {
   color: #3c3c3b;
 }
 
-.collapsible {
+.section-collapsible .collapsible {
   background-color: #3c3c3b;
   color: #444;
   cursor: pointer;
@@ -746,13 +746,14 @@ a {
   border-bottom: 1px solid #faf9f6;
   color: #faf9f6;
 }
-
-.active,
-.collapsible:hover {
+.section-collapsible .collapsible.no-border-top {
+  border-top: none;
+}
+.section-collapsible .active,
+.section-collapsible .collapsible:hover {
   background-color: #3c3c3b;
 }
-
-.content {
+.section-collapsible .content {
   padding: 0 18px;
   background-color: white;
   max-height: 0;
@@ -760,16 +761,14 @@ a {
   transition: max-height 0.2s ease-out;
   color: #3c3c3b;
 }
-
-.collapsible:after {
+.section-collapsible .collapsible:after {
   content: "➕"; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: white;
   float: right;
   margin-left: 5px;
 }
-
-.active:after {
+.section-collapsible .active:after {
   content: "➖"; /* Unicode character for "minus" sign (-) */
 }
 
