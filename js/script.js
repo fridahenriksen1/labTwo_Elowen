@@ -83,7 +83,18 @@ function getCard() {
   });
 }
 //!fetch to get flowers.json
-fetch("Users/fridahenriksen/Desktop/labTwo_Elowen-main/json/flowers.json")
+// fetch("json/flowers.json")
+//   .then((response) => response.json())
+//   .then((data) => {
+//     console.log(data);
+//     data.forEach((d) => {
+//       fetchData.push(d);
+//     });
+//     if (dataUserCards) {
+//       getCard();
+//     }
+//   });
+fetch("/labTwo_Elowen-main/json/flowers.json")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
