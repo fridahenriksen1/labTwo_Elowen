@@ -83,7 +83,7 @@ function getCard() {
   });
 }
 //!fetch to get flowers.json
-fetch("json/flowers.json")
+fetch("Users/fridahenriksen/Desktop/labTwo_Elowen-main/json/flowers.json")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
