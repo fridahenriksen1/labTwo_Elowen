@@ -683,6 +683,12 @@ a {
   flex-wrap: wrap;
   margin-bottom: 4rem;
 }
+@media (min-width: 767px) {
+  .product-main {
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+}
 .product-main .product .card-specific-product .card-pic-box {
   min-width: 23.5rem;
   height: 23.6rem;
@@ -728,6 +734,19 @@ a {
   flex-wrap: wrap;
   margin: 2rem 1rem;
 }
+@media (min-width: 767px) {
+  .btn-collapsible-box {
+    max-width: 350px;
+  }
+}
+.btn-collapsible-box .p-info {
+  display: none;
+}
+@media (min-width: 767px) {
+  .btn-collapsible-box .p-info {
+    display: block;
+  }
+}
 .btn-collapsible-box .btn-cart {
   padding: 1rem;
   background-color: orange;
@@ -735,6 +754,11 @@ a {
   text-align: center;
   margin: 1rem 0rem 2rem 0rem;
   color: #3c3c3b;
+}
+@media (min-width: 767px) {
+  .btn-collapsible-box .btn-cart {
+    max-height: 50px;
+  }
 }
 
 .section-collapsible {

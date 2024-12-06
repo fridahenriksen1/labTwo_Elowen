@@ -3,6 +3,11 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 4rem;
+
+  @media (min-width: 767px) {
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
   .product {
     .card-specific-product {
       .card-pic-box {

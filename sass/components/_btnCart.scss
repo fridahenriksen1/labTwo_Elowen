@@ -2,6 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   margin: 2rem 1rem;
+  @media (min-width: 767px) {
+    max-width: 350px;
+  }
+  .p-info {
+    display: none;
+    @media (min-width: 767px) {
+      display: block;
+    }
+  }
 
   .btn-cart {
     padding: 1rem;
@@ -10,5 +19,8 @@
     text-align: center;
     margin: 1rem 0rem 2rem 0rem;
     color: $primary-bg;
+    @media (min-width: 767px) {
+      max-height: 50px;
+    }
   }
 }
