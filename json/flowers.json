@@ -4,54 +4,64 @@
     "image": "img/bridal_bouquet_roses.jpg",
     "name": "Rose & Lace",
     "price": 1600,
-    "htmlUrl": "product/rose.html"
+    "htmlUrl": "product/rose.html",
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
   },
   {
     "id": 2,
     "image": "img/bridal_bouquet_sunflower.jpg",
     "name": "Enchanted Blooms",
-    "price": 1300
+    "price": 1300,
+    "htmlUrl": "product/enchanted.html",
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
   },
   {
     "id": 3,
     "image": "img/bridal_bouquet_03.jpg",
     "name": "Eternal Romance",
-    "price": 1400
+    "price": 1400,
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
   },
   {
     "id": 4,
     "image": "img/bridal_bouquet_04.jpg",
     "name": "Whispering Petals",
-    "price": 1200
+    "price": 1200,
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
   },
   {
     "id": 5,
     "image": "img/bridal_bouquet_06.jpg",
     "name": "Ivory Grace",
-    "price": 1200
+    "price": 1200,
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
   },
   {
     "id": 6,
     "image": "img/bridal_bouquet_07.jpg",
     "name": "Luminous Love",
-    "price": 1200
+    "price": 1200,
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
   },
   {
     "id": 7,
     "image": "img/bridal_bouquet_08.jpg",
     "name": "Blossoms of Bliss",
-    "price": 1200
+    "price": 1200,
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
   },
   {
     "id": 8,
     "image": "img/bridal_bouquet_09.jpg",
     "name": "Blushing Bride",
-    "price": 1200
+    "price": 1200,
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
   },
   {
     "id": 9,
     "image": "img/bridal_bouquet_10.jpg",
     "name": "Sweet Serenade",
-    "price": 1200
+    "price": 1200,
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
   }
 ]

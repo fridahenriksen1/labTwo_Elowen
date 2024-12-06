@@ -693,6 +693,12 @@ a {
   min-width: 23.5rem;
   height: 23.6rem;
 }
+@media (min-width: 776px) {
+  .product-main .product .card-specific-product .card-pic-box {
+    width: 30rem;
+    height: 35rem;
+  }
+}
 .product-main .product .card-specific-product .card-pic-box img {
   border-radius: 2rem 2rem 0rem 0rem;
   -o-object-fit: cover;

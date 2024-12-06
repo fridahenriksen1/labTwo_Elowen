@@ -64,21 +64,31 @@ function getCard() {
 
     const img = card.querySelector("[data-image]");
     const header = card.querySelector("[data-header]");
+    //const price = card.querySelector(".price-card");
     const price = card.querySelector("[data-price]");
     const link = card.querySelector("[data-link]");
-
     img.setAttribute("src", `${product.image}`);
     header.textContent = product.name;
-    price.textContent = product.price;
+    //!url to fakestoreapi
+    price.textContent = product.fakeStoreApiUrl;
     link.setAttribute("href", product.htmlUrl);
     console.log(product.price);
     dataUserCards.append(card);
     console.log(card);
+
+    fetch(`https://fakestoreapi.com/products/${product.id}`)
+      .then((response) => response.json())
+      .then((data) => {
+        price.textContent = `${data.price} SEK`;
+      });
+
+    dataUserCards.append(card);
+
     return {
       element: card,
       image: product.image,
       name: product.name,
-      price: product.price,
+      //price: product.fakeStoreApiUrl,
     };
   });
 }
@@ -111,7 +121,6 @@ fetch("json/flowers.json")
 //! search in the searchbar
 
 const searchInput = document.querySelector("#product-search");
-// const searchInput = document.querySelector("[data-search]");
 
 searchInput.addEventListener("input", (e) => {
   const valuInput = e.target.value.toLowerCase();

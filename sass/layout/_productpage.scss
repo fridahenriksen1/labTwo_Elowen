@@ -14,6 +14,11 @@
         min-width: 23.5rem;
         height: 23.6rem;
 
+        @media (min-width: 776px) {
+          width: 30rem;
+          height: 35rem;
+        }
+
         img {
           border-radius: 2rem 2rem 0rem 0rem;
           object-fit: cover;

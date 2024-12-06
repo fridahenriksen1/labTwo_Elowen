@@ -34,6 +34,7 @@ fetch("https://fakestoreapi.com/products")
       }
     });
     console.log(data);
+
     //! Hämtar priset i första id:t
     // document.querySelector(".price-card").textContent = data[0].price;
   });
