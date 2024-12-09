@@ -717,6 +717,9 @@ a {
   justify-content: space-between;
   margin-bottom: 1.3rem;
 }
+.product-main .product .card-specific-product .card-content-box .text-rating-box .card-text-box .price-product {
+  padding-top: 0.3rem;
+}
 .product-main .product .product-count {
   text-align: right;
   padding: 0 0.5rem;
