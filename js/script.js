@@ -54,7 +54,7 @@ let fetchData = [];
 let products = [];
 
 function getCard() {
-  const maxCardsToShow = 9; // Antal kort att visa
+  const maxCardsToShow = 9;
   if (!fetchData.length) {
     console.warn("No data in fetchData array.");
     return;
@@ -69,7 +69,7 @@ function getCard() {
     const link = card.querySelector("[data-link]");
     img.setAttribute("src", `${product.image}`);
     header.textContent = product.name;
-    //!url to fakestoreapi
+    //!url to fakestoreapi in json
     price.textContent = product.fakeStoreApiUrl;
     link.setAttribute("href", product.htmlUrl);
     console.log(product.price);
@@ -104,19 +104,6 @@ fetch("json/flowers.json")
       getCard();
     }
   });
-
-//* This worked when I used it at my webpage
-// fetch("/labTwo_Elowen-main/json/flowers.json")
-//   .then((response) => response.json())
-//   .then((data) => {
-//     console.log(data);
-//     data.forEach((d) => {
-//       fetchData.push(d);
-//     });
-//     if (dataUserCards) {
-//       getCard();
-//     }
-//   });
 
 //! search in the searchbar
 

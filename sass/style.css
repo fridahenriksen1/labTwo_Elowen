@@ -708,14 +708,19 @@ a {
   width: 100%;
 }
 .product-main .product .card-specific-product .card-content-box {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 0.5rem;
 }
+.product-main .product .card-specific-product .card-content-box .text-rating-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.3rem;
+}
 .product-main .product .product-count {
   text-align: right;
   padding: 0 0.5rem;
+  margin-top: 2rem;
 }
 
 .rating-box {
@@ -738,7 +743,7 @@ a {
 .btn-collapsible-box {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem 1rem;
+  margin: 0rem 1rem 2rem 1rem;
 }
 @media (min-width: 767px) {
   .btn-collapsible-box {

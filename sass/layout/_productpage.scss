@@ -10,6 +10,9 @@
   }
   .product {
     .card-specific-product {
+      // @media (min-width: 776px) {
+      //   display: flex;
+      // }
       .card-pic-box {
         min-width: 23.5rem;
         height: 23.6rem;
@@ -27,19 +30,26 @@
           width: 100%;
         }
       }
+
       .card-content-box {
-        display: flex;
+        //display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 0.5rem;
 
-        .card-text-box {
+        .text-rating-box {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 1.3rem;
+          .card-text-box {
+          }
         }
       }
     }
     .product-count {
       text-align: right;
       padding: 0 0.5rem;
+      margin-top: 2rem;
     }
   }
 }

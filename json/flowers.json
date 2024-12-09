@@ -5,7 +5,9 @@
     "name": "Rose & Lace",
     "price": 1600,
     "htmlUrl": "product/rose.html",
-    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products",
+    "category": "Brudbukett",
+    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
   },
   {
     "id": 2,
@@ -13,55 +15,70 @@
     "name": "Enchanted Blooms",
     "price": 1300,
     "htmlUrl": "product/enchanted.html",
-    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products",
+    "category": "Brudbukett",
+    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
   },
   {
     "id": 3,
     "image": "img/bridal_bouquet_03.jpg",
     "name": "Eternal Romance",
     "price": 1400,
-    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products",
+    "category": "Brudbukett",
+    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
   },
   {
     "id": 4,
     "image": "img/bridal_bouquet_04.jpg",
     "name": "Whispering Petals",
     "price": 1200,
-    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products",
+    "category": "Brudbukett",
+    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
   },
   {
     "id": 5,
     "image": "img/bridal_bouquet_06.jpg",
     "name": "Ivory Grace",
     "price": 1200,
-    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products",
+    "category": "Brudbukett",
+    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
   },
   {
     "id": 6,
     "image": "img/bridal_bouquet_07.jpg",
     "name": "Luminous Love",
     "price": 1200,
-    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products",
+    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
   },
   {
     "id": 7,
     "image": "img/bridal_bouquet_08.jpg",
     "name": "Blossoms of Bliss",
     "price": 1200,
-    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products",
+    "category": "Brudbukett",
+    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
   },
   {
     "id": 8,
     "image": "img/bridal_bouquet_09.jpg",
     "name": "Blushing Bride",
     "price": 1200,
-    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products",
+    "category": "Brudbukett",
+    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
   },
   {
     "id": 9,
     "image": "img/bridal_bouquet_10.jpg",
     "name": "Sweet Serenade",
     "price": 1200,
-    "fakeStoreApiUrl": "https://fakestoreapi.com/products"
+    "fakeStoreApiUrl": "https://fakestoreapi.com/products",
+    "category": "Brudbukett",
+    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
   }
 ]

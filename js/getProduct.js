@@ -12,8 +12,12 @@ fetch("../json/flowers.json")
         const img = product.querySelector("[data-image]");
         console.log("found img element:", img);
         const header = product.querySelector("[data-header]");
+        const description = product.querySelector("[data-description]");
+
         img.setAttribute("src", `../${item.image}`);
         header.textContent = item.name;
+        description.textContent = item.description;
+
         container.append(product);
       }
     });
