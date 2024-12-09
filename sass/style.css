@@ -694,6 +694,8 @@ a {
   .product-main .product .card-specific-product {
     display: flex;
     justify-content: space-between;
+    max-width: 1050px;
+    margin: auto;
   }
 }
 .product-main .product .card-specific-product .card-pic-box {
@@ -751,11 +753,24 @@ a {
   margin: 0.1rem;
 }
 
+.big-btn-collapsible-box {
+  margin-right: 0rem;
+}
 @media (min-width: 767px) {
   .big-btn-collapsible-box {
     display: flex;
     justify-content: right;
     margin-top: -15rem;
+  }
+}
+@media (min-width: 1200px) {
+  .big-btn-collapsible-box {
+    margin-right: 15rem;
+  }
+}
+@media (min-width: 1400px) {
+  .big-btn-collapsible-box {
+    margin-right: 20rem;
   }
 }
 .big-btn-collapsible-box .btn-collapsible-box {

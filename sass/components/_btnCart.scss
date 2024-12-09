@@ -1,8 +1,18 @@
 .big-btn-collapsible-box {
+  margin-right: 0rem;
   @media (min-width: 767px) {
     display: flex;
     justify-content: right;
     margin-top: -15rem;
+    // max-width: 1050px;
+    //margin-right: 10rem;
+  }
+
+  @media (min-width: 1200px) {
+    margin-right: 15rem;
+  }
+  @media (min-width: 1400px) {
+    margin-right: 20rem;
   }
 
   .btn-collapsible-box {
