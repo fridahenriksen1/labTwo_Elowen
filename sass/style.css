@@ -526,6 +526,11 @@ a {
 #categorys {
   font-family: "Open Sans", sans-serif;
 }
+@media (min-width: 767px) {
+  #categorys {
+    margin-top: 2rem;
+  }
+}
 #categorys .chip + label {
   display: inline-block;
   background-color: #faf9f6;
@@ -556,8 +561,20 @@ a {
   flex-wrap: wrap;
   max-width: 300px;
 }
+@media (min-width: 767px) {
+  .heading-searchBox .search-box {
+    max-width: 1500px;
+    justify-content: space-between;
+  }
+}
 .heading-searchBox .search-box #search-bar {
   position: relative;
+  margin-bottom: 1rem;
+}
+@media (min-width: 767px) {
+  .heading-searchBox .search-box #search-bar {
+    margin-bottom: 0rem;
+  }
 }
 .heading-searchBox .search-box #search-bar #product-search {
   padding: 0.8rem 2rem 0.8rem 3rem;
@@ -581,8 +598,14 @@ a {
 
 .dropdown {
   position: relative;
-  display: inline-block;
-  margin-top: 1rem;
+  display: flex;
+}
+@media (min-width: 776px) {
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0rem;
+  }
 }
 .dropdown .dropbtn {
   background-color: transparent;

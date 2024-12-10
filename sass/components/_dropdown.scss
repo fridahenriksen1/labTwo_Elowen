@@ -1,7 +1,14 @@
 .dropdown {
   position: relative;
-  display: inline-block;
-  margin-top: 1rem;
+  //display: inline-block;
+  display: flex;
+  //margin-top: 1rem;
+
+  @media (min-width: 776px) {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0rem;
+  }
 
   .dropbtn {
     background-color: transparent;

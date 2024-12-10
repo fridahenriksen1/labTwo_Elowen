@@ -1,5 +1,8 @@
 #categorys {
   font-family: $font-family-body;
+  @media (min-width: 767px) {
+    margin-top: 2rem;
+  }
   .chip {
     + label {
       display: inline-block;
