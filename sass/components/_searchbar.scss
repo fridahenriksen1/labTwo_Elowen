@@ -3,6 +3,8 @@
   // flex-wrap: wrap;
   // max-width: 500px;
   // justify-content: left;
+  width: 100%;
+  max-width: 1020px;
 
   .heading-products {
     max-width: 300px;
@@ -31,6 +33,10 @@
         border-radius: 100px;
         border: 1px solid #9e9e9e;
         width: 125%;
+
+        @media (min-width: 800px) {
+          width: 225%;
+        }
         &.focus-border {
           border: 1px solid $primary-bg;
           outline: none;

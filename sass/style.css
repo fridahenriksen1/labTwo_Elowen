@@ -553,6 +553,10 @@ a {
   background-color: #ff952b;
 }
 
+.heading-searchBox {
+  width: 100%;
+  max-width: 1020px;
+}
 .heading-searchBox .heading-products {
   max-width: 300px;
 }
@@ -582,6 +586,11 @@ a {
   border-radius: 100px;
   border: 1px solid #9e9e9e;
   width: 125%;
+}
+@media (min-width: 800px) {
+  .heading-searchBox .search-box #search-bar #product-search {
+    width: 225%;
+  }
 }
 .heading-searchBox .search-box #search-bar #product-search.focus-border {
   border: 1px solid #3c3c3b;
