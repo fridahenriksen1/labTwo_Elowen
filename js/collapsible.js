@@ -1,13 +1,13 @@
 //! Collapsible for the product page
-const coll = document.getElementsByClassName("collapsible");
-let i;
+const collapsible = document.querySelectorAll(".collapsible");
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function () {
-    this.classList.toggle("active");
-    const content = this.nextElementSibling;
-    const removeIcon = this.querySelector(".remove-icon");
-    const addIcon = this.querySelector(".add-icon");
+for (i = 0; i < collapsible.length; i++) {
+  collapsible[i].addEventListener("click", function (e) {
+    const element = e.currentTarget;
+    element.classList.toggle("active");
+    const content = element.nextElementSibling;
+    const removeIcon = element.querySelector(".remove-icon");
+    const addIcon = element.querySelector(".add-icon");
     if (content.style.maxHeight) {
       //* show addIcon
       content.style.maxHeight = null;
