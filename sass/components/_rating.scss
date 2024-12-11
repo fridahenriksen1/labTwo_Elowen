@@ -13,6 +13,15 @@
       background-color: $rating-color;
       border-radius: 100%;
       margin: 0.1rem;
+
+      &.border {
+        height: 15px;
+        width: 15px;
+        background-color: transparent;
+        border-radius: 100%;
+        border: 1px solid $rating-color;
+        margin: 0.1rem;
+      }
     }
   }
 }

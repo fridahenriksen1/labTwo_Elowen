@@ -8,6 +8,11 @@
 
   .heading-products {
     max-width: 300px;
+    @media(min-width:800px ){
+      max-width: 700px;
+      font-size: 62px;
+    }
+
   }
 
   .search-box {
@@ -36,6 +41,9 @@
 
         @media (min-width: 800px) {
           width: 225%;
+        }
+        @media (min-width: 869px) {
+          width: 260%;
         }
         &.focus-border {
           border: 1px solid $primary-bg;

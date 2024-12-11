@@ -73,7 +73,7 @@ function getCard() {
     price.textContent = product.fakeStoreApiUrl;
     link.setAttribute("href", product.htmlUrl);
     console.log(product.price);
-    dataUserCards.append(card);
+    //dataUserCards.append(card);
     console.log(card);
 
     fetch(`https://fakestoreapi.com/products/${product.id}`)
@@ -118,3 +118,6 @@ searchInput.addEventListener("input", (e) => {
     console.log("här är flowers", products);
   });
 });
+
+
+
