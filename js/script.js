@@ -64,7 +64,6 @@ function getCard() {
 
     const img = card.querySelector("[data-image]");
     const header = card.querySelector("[data-header]");
-    //const price = card.querySelector(".price-card");
     const price = card.querySelector("[data-price]");
     const link = card.querySelector("[data-link]");
     img.setAttribute("src", `${product.image}`);
@@ -73,7 +72,6 @@ function getCard() {
     price.textContent = product.fakeStoreApiUrl;
     link.setAttribute("href", product.htmlUrl);
     console.log(product.price);
-    //dataUserCards.append(card);
     console.log(card);
 
     fetch(`https://fakestoreapi.com/products/${product.id}`)
@@ -88,7 +86,6 @@ function getCard() {
       element: card,
       image: product.image,
       name: product.name,
-      //price: product.fakeStoreApiUrl,
     };
   });
 }
