@@ -616,6 +616,10 @@ a {
   color: #9e9e9e;
 }
 
+.hide {
+  display: none;
+}
+
 .dropdown {
   position: relative;
   display: flex;
@@ -714,10 +718,6 @@ a {
 }
 .section-products .cards-products .text-icon-box .shoppingIcon {
   padding-right: 1rem;
-}
-
-.hide {
-  display: none;
 }
 
 .product-main {
