@@ -106,7 +106,6 @@ fetch("json/flowers.json")
   });
 
 //! search in the searchbar
-
 const searchInput = document.querySelector("#product-search");
 
 searchInput.addEventListener("input", (e) => {

@@ -17,7 +17,7 @@
     "htmlUrl": "product/enchanted.html",
     "fakeStoreApiUrl": "https://fakestoreapi.com/products",
     "category": "Brudbukett",
-    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
+    "description": "En strålande brudbukett som sprider glädje med solrosor som mittpunkt. Perfekt för den som söker en naturlig och livfull touch på sin stora dag, med blommor som utstrålar värme och energi."
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "htmlUrl": "product/eternal.html",
     "fakeStoreApiUrl": "https://fakestoreapi.com/products",
     "category": "Brudbukett",
-    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
+    "description": "En romantisk brudbukett i lila, röda och rosa toner som symboliserar evig kärlek. Med en noggrant balanserad färgpalett och omsorgsfullt utvalda blommor blir denna bukett en oförglömlig del av din speciella dag."
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "htmlUrl": "product/petals.html",
     "fakeStoreApiUrl": "https://fakestoreapi.com/products",
     "category": "Brudbukett",
-    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
+    "description": "En förtrollande brudbukett i mjuka rosa och vita nyanser. Denna eleganta skapelse viskar om kärlek och skönhet, och är designad för att komplettera en drömlik bröllopsdag."
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "htmlUrl": "product/ivory.html",
     "fakeStoreApiUrl": "https://fakestoreapi.com/products",
     "category": "Brudbukett",
-    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
+    "description": "Med vita, lila och rosa blommor erbjuder denna brudbukett en sofistikerad och tidlös elegans. Ivory Grace är det perfekta valet för den som söker en klassisk men modern touch."
   },
   {
     "id": 6,
@@ -56,7 +56,7 @@
     "price": 1200,
     "htmlUrl": "product/luminous.html",
     "fakeStoreApiUrl": "https://fakestoreapi.com/products",
-    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
+    "description": "En ljus och romantisk brudbukett i rosa och vitt, skapad för att få kärleken att lysa. Med sin mjuka färgpalett och harmoniska design är den en symbol för ljus och lycka på din stora dag."
   },
   {
     "id": 7,
@@ -66,7 +66,7 @@
     "htmlUrl": "product/bliss.html",
     "fakeStoreApiUrl": "https://fakestoreapi.com/products",
     "category": "Brudbukett",
-    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
+    "description": "En underbar brudbukett med lila och vita rosor som förmedlar lycka och harmoni. Perfekt för bruden som önskar en elegant och sofistikerad bukett fylld med känsla och charm."
   },
   {
     "id": 8,
@@ -76,7 +76,7 @@
     "htmlUrl": "product/blushing.html",
     "fakeStoreApiUrl": "https://fakestoreapi.com/products",
     "category": "Brudbukett",
-    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
+    "description": "En livfull och färgstark brudbukett med en blandning av olika blommor och färger. Denna bukett är skapad för bruden som vill uttrycka sin unika stil och passion."
   },
   {
     "id": 9,
@@ -86,6 +86,6 @@
     "htmlUrl": "product/serenade.html",
     "fakeStoreApiUrl": "https://fakestoreapi.com/products",
     "category": "Brudbukett",
-    "description": "En elegant brudbukett som skapas med omsorg för att komplettera din stora dag. Med noggrant utvalda blommor i säsong erbjuder vi en tidlös design som passar alla stilar – från klassiskt romantisk till modern och chic."
+    "description": "En grönskande och fridfull brudbukett i vitt och grönt, där naturen står i fokus. Sweet Serenade är det självklara valet för en sofistikerad och jordnära bröllopslook."
   }
 ]
