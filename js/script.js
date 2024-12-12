@@ -112,12 +112,9 @@ const searchInput = document.querySelector("#product-search");
 searchInput.addEventListener("input", (e) => {
   const valuInput = e.target.value.toLowerCase();
 
-  products.forEach((flower) => {
+  products.filter((flower) => {
     const isVisible = flower.name.toLowerCase().includes(valuInput);
     flower.element.classList.toggle("hide", !isVisible);
     console.log("här är flowers", products);
   });
 });
-
-
-
