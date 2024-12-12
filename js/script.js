@@ -115,6 +115,5 @@ searchInput.addEventListener("input", (e) => {
   products.filter((flower) => {
     const isVisible = flower.name.toLowerCase().includes(valuInput);
     flower.element.classList.toggle("hide", !isVisible);
-    console.log("här är flowers", products);
   });
 });
