@@ -1,13 +1,8 @@
 .main-products {
   padding: 1rem;
-  // margin: auto;
-  // display: flex;
-  // flex-wrap: wrap;
-  // justify-content: center;
   @media (min-width: 1000px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
   }
 }

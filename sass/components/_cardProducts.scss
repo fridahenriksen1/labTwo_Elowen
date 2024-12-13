@@ -6,14 +6,12 @@
   max-width: 1000px;
 
   .cards-products {
-    // position: relative;
     flex: 1 0 auto;
     cursor: pointer;
     @media (min-width: 431px) {
       max-width: 300px;
     }
     .img-box-products {
-      //width: 328px;
       height: 346px;
       position: relative;
 
@@ -47,6 +45,3 @@
     }
   }
 }
-// .hide {
-//   display: none;
-// }

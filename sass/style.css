@@ -306,7 +306,6 @@ a {
   display: flex;
   justify-content: right;
   align-self: flex-end;
-  /* flex: 0 0 300px; */
   width: 160px;
   margin-bottom: 2rem;
 }
