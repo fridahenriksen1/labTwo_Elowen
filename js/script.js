@@ -59,6 +59,7 @@ function getCard() {
     console.warn("No data in fetchData array.");
     return;
   }
+
   products = fetchData.slice(0, maxCardsToShow).map((product) => {
     const card = dataTemplate.content.cloneNode(true).children[0];
 
@@ -113,3 +114,38 @@ searchInput.addEventListener("input", (e) => {
     flower.element.classList.toggle("hide", !isVisible);
   });
 });
+
+//! Filter sort
+
+// function sortDropdown(a, b) {
+//   return a.price.localCompare(b.price);
+// }
+
+// dropdownSort.addEventListener("input", sortDropdown);
+
+// //products.sort(sortDropdown);
+
+// const dropdownSort = document.querySelector("#dropdown-sort");
+
+// const lowPrice = document.querySelector("#low-price");
+// const highPrice = document.querySelector("#high-price");
+
+// products.sort((a, b) => {
+//   if (lowPrice === "Lägsta pris") {
+//     return a.price - b.price;
+//   } else if (highPrice === "Högsta pris") {
+//     return b.price - a.price;
+//   }
+// });
+
+//! Category filter
+
+const catergoryFilter = document.querySelector("#categorys");
+
+const chip = document.querySelector(".chip");
+
+
+function category() {
+
+
+}
